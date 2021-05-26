@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: email-service 
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: goofyhusain@gmail.com 
+    password: gquqkfkiwsvphrdx
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+server:
+  port: 8282
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/eureka
