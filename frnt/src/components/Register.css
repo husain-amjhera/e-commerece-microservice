@@ -1,0 +1,30 @@
+.register {
+  background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1800&h=942&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F23%2F2018%2F11%2F12%2Fblack-friday-quotes-funny-shopping-sayings-pattern-tout.jpg");
+  background-size: cover;
+  font-size: 14px;
+  color: #fff;
+  height: 90vh;
+  position: relative;
+}
+
+.simple-register-container {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 400px;
+  position: relative;
+  top: 15%;
+  margin: auto;
+  padding: 25px;
+  border-radius: 15px;
+}
+.simple-register-container h2 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.simple-register-container .btn-register {
+  background-color: #ff5964;
+  color: #fff;
+}
+.signUp {
+  color: #fff;
+}

@@ -1,0 +1,17 @@
+.card > img {
+  object-fit: contain;
+  max-height: 200px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.card {
+  max-height: 420px;
+  border-radius: 15px;
+  border: 3px solid rgb(211, 211, 211);
+}
+.quantity-select {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
